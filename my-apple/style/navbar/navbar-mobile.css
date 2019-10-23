@@ -1,0 +1,67 @@
+@media(max-width: 991px) {
+    .menu .container .row nav div ul li a {
+        padding: 10px 0!important;
+    }
+}
+
+@media(max-width: 767px) {
+    .menu .container .row .navbar-header {
+        clear: both;
+        display: table;
+        width: 100%;
+    }
+
+    .menu .container .row .navbar-header .cart, .menu .container .row .navbar-header .apple {
+        display: initial;
+    }
+
+    .menu .container .row .navbar-default .navbar-toggle {
+        border-color: #f1f1f1!important;
+        padding: 11px 18px!important;
+    }
+
+    .menu .container .row .navbar-default .navbar-toggle .icon-bar {
+        background-color: #f1f1f1!important;
+    }
+
+    .menu .container .row .navbar-toggle .icon-bar {
+        display: block;
+        width: 12px!important;
+        height: 2px!important;
+        border-radius: 1px!important;
+    }
+
+    .navbar-toggle .icon-bar+.icon-bar {
+        margin-top: 2px!important;
+    }
+    
+    .dropdown:hover .dropdown-menu {
+        z-index: -1;
+    }
+
+    .open:hover .dropdown-menu {
+        z-index: 1;
+    }
+
+    .menu .container .row nav .open {
+        display: flex;
+    }
+
+    .menu .container .row nav .open>div {
+        width: 100%;
+        clear: both;
+        display: table;
+    }
+
+    .menu .container .row nav .open div>div {
+        float: right;
+    }
+
+    .menu .container .row .dropdown-menu>li {
+        color: white;
+    }
+
+    .menu .container .row nav div ul {
+        width: initial;
+    }
+}

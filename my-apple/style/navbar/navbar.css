@@ -1,0 +1,87 @@
+.menu .container .row nav {
+    border: none;
+    height: 100%;
+    margin: 0;
+    border: 1px solid transparent;
+}
+
+.menu, .menu .container .row nav {
+    background: #333;
+}
+
+.menu .container .row nav div ul {
+    width: 100%;
+}
+
+.menu .container .row nav div ul li:hover {
+    background: rgb(32, 32, 32);
+}
+
+.menu .container .row nav div ul li a {
+    color: white;
+    padding: 10px 15px;
+    display: flex;
+    align-items: center;
+    text-decoration: none!important;
+}
+
+.menu .container .row nav div ul li a span {
+    font-size: 16px;
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-color: initial!important;
+}
+
+.nav .open>a, .nav .open>a:focus, .nav .open>a:hover {
+    background-color: initial!important;
+}
+
+.menu .container .row .dropdown-menu {
+    padding-bottom: 0!important;
+    margin: 0!important;
+    border-radius: 0 0 4px 4px!important;
+}
+
+.menu .container .row .dropdown-menu>li {
+    padding: 3px 20px;
+    cursor: pointer;
+
+}
+
+.menu .container .row .dropdown-menu>li:hover {
+    background: #545454!important;
+    color: white;
+}
+
+.dropdown, .dropup {
+    position: initial!important;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.navbar-toggle {
+    /* float: initial!important; */
+    float: left!important;
+    margin: 2px 0!important;
+}
+
+.menu .container .row .navbar {
+    min-height: 100%!important;
+}
+
+.menu .container .row .navbar-header .cart, .menu .container .row .navbar-header .apple {
+    display: none;
+    background: #333;
+    border: 1px solid #f1f1f1;
+    color: #f1f1f1;
+    border-radius: 4px;
+    margin: 2px 0;
+    padding: 6px;
+}
+
+.menu .container .row .navbar-header>div {
+    float: right;
+}

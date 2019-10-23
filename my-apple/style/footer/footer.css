@@ -1,0 +1,51 @@
+.footer {
+    background: #303030;
+    margin-top: 30px;
+    padding-top: 30px;
+}
+
+.footer .container .row {
+    display: flex;
+    align-items: center;
+}
+
+.footer .container .row div img {
+    width: 40px;
+}
+
+.footer .container .row div img:hover {
+   cursor: pointer;
+}
+
+.footer .container .row .info h5 {
+    color: white;
+    font-weight: bold;
+}
+
+.footer .container .row a {
+    color: #ccc;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 12px;
+    display: block;
+}
+
+.footer .container .row a:hover {
+    color: white;
+}
+
+.footer .container .row .address {
+    white-space: pre-line;
+    color: #e2e2e2;
+    font-size: 12px;
+}
+
+.footer .container hr {
+    border: 1px solid #666;
+    border-top: none;
+}
+
+.footer .container p {
+    color: #e2e2e2;
+    font-size: 12px;
+}

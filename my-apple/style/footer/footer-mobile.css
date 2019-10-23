@@ -1,0 +1,40 @@
+@media(max-width: 767px) {
+    .footer .container .row {
+        display: initial;
+        align-items: initial;
+        text-align: center;
+    }
+
+    .footer .container .row .icon {
+        display: inline-block;
+    }
+    
+    .footer .container .row .info {
+        line-height: 2;
+    }
+
+    .footer .container .row .address {
+        line-height: 2;
+    }
+
+    .footer .container .row .contacts {
+        line-height: 2;
+    }
+
+    .footer hr {
+        margin-top: 0;
+    }
+
+    .footer .container .row .icons {
+        margin-left: -15px;
+        margin-right: -15px;
+    }
+
+    .footer .container .row .icons .icon:first-child {
+        padding-left: 0;
+    }
+
+    .footer .container .row .icons .icon:last-child {
+        padding-right: 0;
+    }
+}

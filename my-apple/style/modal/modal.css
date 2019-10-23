@@ -1,0 +1,48 @@
+.modal-header, .modal-footer {
+    border: none!important;
+}
+
+.modal .modal-body {
+    padding: 30px 50px;
+    text-align: center;
+}
+
+.modal-content, .modal-dialog {
+    opacity: 0.8;
+    background: white;
+    border-radius: 10px;
+}
+
+.modal-dialog {
+    top: 20%;
+}
+
+.modal-dialog button, .modal-dialog input {
+    outline: none!important;
+}
+
+.modal-header button>span {
+    font-size: 35px;
+    color: black!important;
+    opacity: 100%;
+}
+
+.modal-header button>span:hover {
+    color: gray!important;
+}
+
+.modal-body input, .modal-body button {
+    border: 4px solid silver;
+    border-radius: 8px;
+    font-size: 18px;
+    padding: 6px 15px;
+    font-style: italic;
+    /* width: 40%; */
+}
+
+.modal-body button {
+    border: 4px solid #e74c3c;
+    background: #e74c3c;
+    color: white;
+    font-style: initial;
+}

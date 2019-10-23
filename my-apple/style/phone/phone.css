@@ -1,0 +1,30 @@
+#phone {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background: #3498db;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    color: white;
+    bottom: 5%;
+    right: 5%;
+    z-index: 100;
+    cursor: pointer;
+}
+
+/* создание анимации «moving» */
+@keyframes moving {
+    50% {transform: rotate(-10deg);}
+}
+
+
+.telephone {
+    /* задать анимацию «moving» к текущему элементу */
+    animation: moving 0.3s infinite linear;
+
+    /* указать точку координат, вокруг которой будет вращаться объект */
+    transform-origin: 50% 50%;
+}

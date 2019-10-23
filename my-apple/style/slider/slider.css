@@ -1,0 +1,15 @@
+.slider {
+    width: 100%;
+}
+
+.slider .carousel-control {
+    opacity: 0!important;
+}
+
+.slider .carousel-control:focus, .slider .carousel-control:hover {
+    opacity: 0!important;
+}
+
+.slider .carousel-indicators li {
+    display: none;
+}

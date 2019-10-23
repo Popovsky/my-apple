@@ -1,0 +1,5 @@
+@media(max-width: 1199px) {
+    .content .container .row .thumbnail .buttons button>span {
+        display: none;
+    }
+}

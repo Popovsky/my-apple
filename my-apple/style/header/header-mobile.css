@@ -1,0 +1,14 @@
+@media(max-width: 767px) {
+    .header .container .row {
+        display: initial;
+        align-items: center;
+    }
+    .header .container .row .logo img {
+        height: 100px;
+        margin: auto;
+    }
+
+    .header .container .row .cart, .header .container .row .bookmark {
+        display: none;
+    }
+}
